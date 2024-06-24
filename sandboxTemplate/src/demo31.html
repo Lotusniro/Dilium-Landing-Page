@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	@@include('_head.html')
+	<link rel="preload" href="@@webRoot/assets/css/fonts/space.css" as="style" onload="this.rel='stylesheet'">
+</head>
+<body>
+	<div class="content-wrapper">
+		<header class="wrapper bg-light">
+			<div class="bg-primary text-white fw-bold fs-15 mb-2">
+				<div class="container py-1 d-md-flex flex-md-row">
+					<div class="d-flex flex-row align-items-center">
+						<div class="icon text-white fs-22 mt-1 me-2"> <i class="uil uil-location-pin-alt"></i></div>
+						<address class="mb-0">Moonshine St. 14/05 Light City</address>
+					</div>
+					<div class="d-flex flex-row align-items-center me-6 ms-auto">
+						<div class="icon text-white fs-22 mt-1 me-2"> <i class="uil uil-phone-volume"></i></div>
+						<p class="mb-0">00 (123) 456 78 90</p>
+					</div>
+					<div class="d-flex flex-row align-items-center">
+						<div class="icon text-white fs-22 mt-1 me-2"> <i class="uil uil-message"></i></div>
+						<p class="mb-0"><a href="mailto:sandbox@email.com" class="link-white hover">sandbox@email.com</a></p>
+					</div>
+				</div>
+				<!-- /.container -->
+			</div>
+			@@include('_navbar.html', {
+				"classList": "center-nav transparent navbar-light",
+				"otherClassList": "w-100 d-flex ms-auto",
+				"otherLanguageSelect": true,
+				"otherBtn": true,
+				"otherBtnClassList": "btn-sm btn-primary rounded",
+				"otherBtnText": "Contact",
+				"otherBtnLink": "@@webRoot/contact.html"
+			})
+		</header>
+		<!-- /header -->
+		<section class="wrapper">
+			<div class="container pt-11 pt-md-13 pb-19 pb-md-17 text-center">
+				<div class="row">
+					<div class="col-lg-9 col-xl-8 col-xxl-7 mx-auto" data-cues="slideInDown" data-group="page-title" data-delay="500">
+						<h1 class="display-1 ls-sm fs-64 mb-4 px-md-8 px-lg-0">We bring rapid solutions for your <span class="underline-3 style-1 primary"><em>business</em></span></h1>
+						<p class="lead fs-24 lh-sm mb-7">We are creative company that values quality and focuses on establishing long-term relationships with customers.</p>
+						<div>
+							<a class="btn btn-lg btn-primary rounded mb-10 mb-xxl-5">See Projects</a>
+						</div>
+					</div>
+					<!-- /column -->
+				</div>
+				<!-- /.row -->
+				<div class="row">
+					<div class="col-lg-10 col-xl-9 mx-auto mt-11 mb-n21">
+						<figure><img class="img-fluid" src="@@webRoot/assets/img/illustrations/i28.png" srcset="@@webRoot/assets/img/illustrations/i28@2x.png 2x" alt=""></figure>
+					</div>
+					<!-- /column -->
+				</div>
+				<!-- /.row -->
+			</div>
+			<!-- /.container -->
+			<div class="overflow-hidden">
+				<div class="divider text-soft-primary mx-n2">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 70"><path fill="currentColor" d="M1440,70H0V45.16a5762.49,5762.49,0,0,1,1440,0Z"/></svg>
+				</div>
+			</div>
+		</section>
+		<!-- /section -->
+		<section class="wrapper bg-gradient-primary">
+			<div class="container pt-15 pt-md-17">
+				<h2 class="fs-16 text-uppercase text-muted mb-8 text-center">Trusted by over 5000 clients</h2>
+				<div class="swiper-container clients mb-19" data-margin="30" data-dots="false" data-loop="true" data-autoplay="true" data-autoplaytime="1" data-drag="false" data-speed="5000" data-items-xxl="7" data-items-xl="6" data-items-lg="5" data-items-md="4" data-items-sm="3" data-items-xs="3">
+					<div class="swiper pe-none">
+						<div class="swiper-wrapper ticker">
+							<div class="swiper-slide px-5"><img src="@@webRoot/assets/img/brands/c1.png" alt="" /></div>
+							<div class="swiper-slide px-5"><img src="@@webRoot/assets/img/brands/c2.png" alt="" /></div>
+							<div class="swiper-slide px-5"><img src="@@webRoot/assets/img/brands/c3.png" alt="" /></div>
+							<div class="swiper-slide px-5"><img src="@@webRoot/assets/img/brands/c4.png" alt="" /></div>
+							<div class="swiper-slide px-5"><img src="@@webRoot/assets/img/brands/c5.png" alt="" /></div>
+							<div class="swiper-slide px-5"><img src="@@webRoot/assets/img/brands/c6.png" alt="" /></div>
+							<div class="swiper-slide px-5"><img src="@@webRoot/assets/img/brands/c7.png" alt="" /></div>
+							<div class="swiper-slide px-5"><img src="@@webRoot/assets/img/brands/c8.png" alt="" /></div>
+							<div class="swiper-slide px-5"><img src="@@webRoot/assets/img/brands/c9.png" alt="" /></div>
+							<div class="swiper-slide px-5"><img src="@@webRoot/assets/img/brands/c10.png" alt="" /></div>
+							<div class="swiper-slide px-5"><img src="@@webRoot/assets/img/brands/c11.png" alt="" /></div>
+						</div>
+						<!--/.swiper-wrapper -->
+					</div>
+					<!-- /.swiper -->
+				</div>
+				<!-- /.swiper-container -->
+				<div class="row text-center">
+					<div class="col-md-10 col-lg-9 col-xxl-7 mx-auto mb-12">
+						<h2 class="fs-16 text-uppercase text-muted mb-3">Our Services</h2>
+						<h3 class="display-2 ls-sm px-xxl-10">The service we offer is <span class="underline-3 style-1 primary"><em>designed</em></span> to meet your business needs.</h3>
+					</div>
+					<!-- /column -->
+				</div>
+				<!-- /.row -->
+				<div class="row gy-10 align-items-center mb-15 mb-md-17">
+					<div class="col-lg-7">
+						<figure><img class="img-fluid" src="@@webRoot/assets/img/illustrations/i29.png" srcset="@@webRoot/assets/img/illustrations/i29@2x.png 2x" alt="" /></figure>
+					</div>
+					<!-- /column -->
+					<div class="col-lg-4 ms-auto">
+						<div class="svg-bg bg-pale-primary rounded mb-5"> <img src="@@webRoot/assets/img/icons/solid/like.svg" class="svg-inject icon-svg solid text-primary" alt="" /> </div>
+						<h3 class="h1 post-title ls-sm mb-3">Social Media Marketing</h3>
+						<p>Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis. Scelerisque id ligula porta felis euismod semper. Fusce dapibus tellus.</p>
+						<ul class="icon-list bullet-bg bullet-soft-primary">
+							<li><i class="uil uil-check"></i>Aenean eu leo quam. Pellentesque ornare.</li>
+							<li><i class="uil uil-check"></i>Nullam quis risus eget urna mollis ornare.</li>
+							<li><i class="uil uil-check"></i>Fusce dapibus, tellus ac cursus commodo.</li>
+						</ul>
+						<a href="#" class="more hover link-primary">Learn More</a>
+					</div>
+					<!-- /column -->
+				</div>
+				<!-- /.row -->
+				<div class="row gy-10 align-items-center mb-15 mb-md-17">
+					<div class="col-lg-7 order-lg-2">
+						<figure><img class="img-fluid" src="@@webRoot/assets/img/illustrations/i30.png" srcset="@@webRoot/assets/img/illustrations/i30@2x.png 2x" alt="" /></figure>
+					</div>
+					<!-- /column -->
+					<div class="col-lg-4 me-auto">
+						<div class="svg-bg bg-pale-green rounded mb-5"> <img src="@@webRoot/assets/img/icons/solid/layout-2.svg" class="svg-inject icon-svg solid text-green" alt="" /> </div>
+						<h3 class="h1 post-title ls-sm mb-3">Web Design & Development</h3>
+						<p>Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis. Scelerisque id ligula porta felis euismod semper. Fusce dapibus tellus.</p>
+						<ul class="icon-list bullet-bg bullet-soft-green">
+							<li><i class="uil uil-check"></i>Aenean eu leo quam. Pellentesque ornare.</li>
+							<li><i class="uil uil-check"></i>Nullam quis risus eget urna mollis ornare.</li>
+							<li><i class="uil uil-check"></i>Fusce dapibus, tellus ac cursus commodo.</li>
+						</ul>
+						<a href="#" class="more hover link-green">Learn More</a>
+					</div>
+					<!-- /column -->
+				</div>
+				<!-- /.row -->
+				<div class="row gy-10 align-items-center">
+					<div class="col-lg-7">
+						<figure><img class="img-fluid" src="@@webRoot/assets/img/illustrations/i31.png" srcset="@@webRoot/assets/img/illustrations/i31@2x.png 2x" alt="" /></figure>
+					</div>
+					<!-- /column -->
+					<div class="col-lg-4 ms-auto">
+						<div class="svg-bg bg-pale-fuchsia rounded mb-5"> <img src="@@webRoot/assets/img/icons/solid/bullhorn.svg" class="svg-inject icon-svg solid text-fuchsia" alt="" /> </div>
+						<h3 class="h1 post-title ls-sm mb-3">Content Marketing Services</h3>
+						<p>Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis. Scelerisque id ligula porta felis euismod semper. Fusce dapibus tellus.</p>
+						<ul class="icon-list bullet-bg bullet-soft-fuchsia">
+							<li><i class="uil uil-check"></i>Aenean eu leo quam. Pellentesque ornare.</li>
+							<li><i class="uil uil-check"></i>Nullam quis risus eget urna mollis ornare.</li>
+							<li><i class="uil uil-check"></i>Fusce dapibus, tellus ac cursus commodo.</li>
+						</ul>
+						<a href="#" class="more hover link-fuchsia">Learn More</a>
+					</div>
+					<!-- /column -->
+				</div>
+				<!-- /.row -->
+			</div>
+			<!-- /.container -->
+		</section>
+		<!-- /section -->
+		<section class="wrapper bg-light">
+			<div class="container py-16 py-md-18">
+				<div class="card bg-soft-primary rounded-4 mb-16 mb-md-18">
+					<div class="card-body py-14 px-lg-0">
+						<div class="row text-center">
+							<div class="col-lg-9 col-xl-8 mx-auto">
+								<h2 class="fs-16 text-uppercase text-muted mb-3">Happy Customers</h2>
+								<h3 class="display-2 ls-sm mb-10 px-xxl-10">Don't take our word for it. See what our <span class="underline-3 style-1 primary"><em>customers</em></span> are saying about us.</h3>
+							</div>
+							<!-- /column -->
+						</div>
+						<!-- /.row -->
+						<div class="row gx-lg-8 gx-xl-12 align-items-center">
+							<div class="col-lg-5 ms-auto col-xl-4 d-none d-lg-flex">
+								<div class="img-mask mask-3"><img src="@@webRoot/assets/img/photos/about13.jpg" srcset="@@webRoot/assets/img/photos/about13@2x.jpg 2x" alt="" /></div>
+							</div>
+							<!--/column -->
+							<div class="col-lg-6 col-xl-6 col-xxl-5 me-auto">
+								<div class="swiper-container dots-start dots-closer mb-6" data-margin="30" data-dots="true">
+									<div class="swiper">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide">
+												<span class="ratings five mb-3"></span>
+												<blockquote class="border-0 fs-lg mb-0">
+													<p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum ligula porta felis euismod semper. Cras justo odio consectetur nulla dapibus curabitur blandit faucibus.”</p>
+													<div class="blockquote-details">
+														<div class="info ps-0">
+															<h5 class="mb-1">Coriss Ambady</h5>
+															<p class="mb-0">Financial Analyst</p>
+														</div>
+													</div>
+												</blockquote>
+											</div>
+											<!--/.swiper-slide -->
+											<div class="swiper-slide">
+												<span class="ratings five mb-3"></span>
+												<blockquote class="border-0 fs-lg mb-0">
+													<p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum ligula porta felis euismod semper. Cras justo odio consectetur nulla dapibus curabitur blandit faucibus.”</p>
+													<div class="blockquote-details">
+														<div class="info ps-0">
+															<h5 class="mb-1">Cory Zamora</h5>
+															<p class="mb-0">Marketing Specialist</p>
+														</div>
+													</div>
+												</blockquote>
+											</div>
+											<!--/.swiper-slide -->
+											<div class="swiper-slide">
+												<span class="ratings five mb-3"></span>
+												<blockquote class="border-0 fs-lg mb-0">
+													<p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum ligula porta felis euismod semper. Cras justo odio consectetur nulla dapibus curabitur blandit faucibus.”</p>
+													<div class="blockquote-details">
+														<div class="info ps-0">
+															<h5 class="mb-1">Nikolas Brooten</h5>
+															<p class="mb-0">Sales Manager</p>
+														</div>
+													</div>
+												</blockquote>
+											</div>
+											<!--/.swiper-slide -->
+										</div>
+										<!--/.swiper-wrapper -->
+									</div>
+									<!-- /.swiper -->
+								</div>
+								<!-- /.swiper-container -->
+							</div>
+							<!--/column -->
+						</div>
+						<!--/.row -->
+					</div>
+					<!--/.card-body -->
+				</div>
+				<!--/.card -->
+				<div class="row text-center">
+					<div class="col-lg-10 col-xxl-8 mx-auto mb-12">
+						<h2 class="fs-16 text-uppercase text-muted mb-3">Latest Projects</h2>
+						<h3 class="display-2 ls-sm">Check out some of our <span class="underline-3 style-1 primary"><em>awesome</em></span> projects with creative ideas and great design.</h3>			
+					</div>
+					<!-- /column -->
+				</div>
+				<!-- /.row -->
+				<div class="row gy-10 align-items-center mb-15 mb-md-17">
+					<div class="col-lg-7">
+						<div class="card bg-soft-grape">
+							<div class="card-body px-9 py-0 overflow-hidden">
+								<div class="row gx-4 gx-md-9">
+									<div class="col-6">
+										<figure class="mt-9"><a href="#"><img class="shadow-lg rounded-top" src="@@webRoot/assets/img/demos/d18.jpg" srcset="@@webRoot/assets/img/demos/d18@2x.jpg 2x" alt="" /></a></figure>
+									</div>
+									<!-- /column -->
+									<div class="col-6">
+										<figure><a href="#"><img class="shadow-lg rounded-bottom" src="@@webRoot/assets/img/demos/d18-2.jpg" srcset="@@webRoot/assets/img/demos/d18-2@2x.jpg 2x" alt="" /></a></figure>
+									</div>
+									<!-- /column -->
+								</div>
+								<!-- /.row -->
+							</div>
+							<!--/.card-body -->
+						</div>
+						<!--/.card -->
+					</div>
+					<!-- /column -->
+					<div class="col-lg-4 ms-auto">
+						<h3 class="h1 post-title ls-sm mb-2">Wiretree Network Company</h3>
+						<div class="post-category text-muted mb-4">
+							<span>Dashboard</span>,
+							<span>Web Development</span>
+						</div>
+						<p class="mb-6">Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis. Scelerisque id ligula porta felis euismod semper. Fusce dapibus tellus. Donec sed odio dui. Vivamus sagittis lacus vel.</p>
+						<a href="#" class="btn btn-grape rounded">See Project</a>
+					</div>
+					<!-- /column -->
+				</div>
+				<!-- /.row -->
+				<div class="row gy-10 align-items-center mb-15 mb-md-17">
+					<div class="col-lg-7 order-lg-2">
+						<div class="card bg-soft-primary">
+							<div class="card-body p-11 overflow-hidden">
+								<figure><a href="#"><img src="@@webRoot/assets/img/photos/f2.png" srcset="@@webRoot/assets/img/photos/f2@2x.png 2x" alt="" /></a></figure>
+							</div>
+							<!--/.card-body -->
+						</div>
+						<!--/.card -->
+					</div>
+					<!-- /column -->
+					<div class="col-lg-4 me-auto">
+						<h3 class="h1 post-title ls-sm mb-2">Alphine Finance</h3>
+						<div class="post-category text-muted mb-4">
+							<span>Branding</span>,
+							<span>Web Design</span>
+						</div>
+						<p class="mb-6">Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis. Scelerisque id ligula porta felis euismod semper. Fusce dapibus tellus. Donec sed odio dui. Vivamus sagittis lacus vel.</p>
+						<a href="#" class="btn btn-primary rounded">See Project</a>
+					</div>
+					<!-- /column -->
+				</div>
+				<!-- /.row -->
+				<div class="row gy-10 align-items-center mb-15 mb-md-17">
+					<div class="col-lg-7">
+						<div class="card bg-soft-violet">
+							<div class="card-body p-11 pb-0 overflow-hidden">
+								<figure><a href="#"><img src="@@webRoot/assets/img/photos/f1.png" srcset="@@webRoot/assets/img/photos/f1@2x.png 2x" alt="" /></a></figure>
+							</div>
+							<!--/.card-body -->
+						</div>
+						<!--/.card -->
+					</div>
+					<!-- /column -->
+					<div class="col-lg-4 ms-auto">
+						<h3 class="h1 post-title ls-sm mb-2">Skybox Landing Pages</h3>
+						<div class="post-category text-muted mb-4">
+							<span>Logo</span>,
+							<span>Web Design</span>
+						</div>
+						<p class="mb-6">Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis. Scelerisque id ligula porta felis euismod semper. Fusce dapibus tellus. Donec sed odio dui. Vivamus sagittis lacus vel.</p>
+						<a href="#" class="btn btn-violet rounded">See Project</a>
+					</div>
+					<!-- /column -->
+				</div>
+				<!-- /.row -->
+				<div class="row gy-10 align-items-center mb-17 mb-md-19">
+					<div class="col-lg-7 order-lg-2">
+						<div class="card bg-soft-red">
+							<div class="card-body p-11 pb-0 overflow-hidden">
+								<figure><a href="#"><img src="@@webRoot/assets/img/photos/f4.png" srcset="@@webRoot/assets/img/photos/f4@2x.png 2x" alt="" /></a></figure>
+							</div>
+							<!--/.card-body -->
+						</div>
+						<!--/.card -->
+					</div>
+					<!-- /column -->
+					<div class="col-lg-4 me-auto">
+						<h3 class="h1 post-title ls-sm mb-2">Nutshell Application</h3>
+						<div class="post-category text-muted mb-4">
+							<span>App Design</span>,
+							<span>Branding</span>
+						</div>
+						<p class="mb-6">Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis. Scelerisque id ligula porta felis euismod semper. Fusce dapibus tellus. Donec sed odio dui. Vivamus sagittis lacus vel.</p>
+						<a href="#" class="btn btn-red rounded">See Project</a>
+					</div>
+					<!-- /column -->
+				</div>
+				<!-- /.row -->
+				<div class="row text-center mb-7">
+					<div class="col-lg-10 col-xl-9 col-xxl-8 mx-auto">
+						<h2 class="fs-16 text-uppercase text-muted mb-3">Join Our Community</h2>
+						<h3 class="display-2 ls-sm">We are <span class="underline-3 style-1 primary"><em>trusted</em></span> by over 50000+ clients. Join them now and grow your business.</h3>
+					</div>
+					<!-- /column -->
+				</div>
+				<!-- /.row -->
+				<div class="row mb-8">
+					<div class="col-md-10 col-lg-9 col-xl-7 mx-auto">
+						<div class="row align-items-center counter-wrapper gy-4 gy-md-0">
+							<div class="col-md-4 text-center">
+								<h3 class="counter counter-lg text-primary">1000+</h3>
+								<p>Completed Projects</p>
+							</div>
+							<!--/column -->
+							<div class="col-md-4 text-center">
+								<h3 class="counter counter-lg text-primary">50K+</h3>
+								<p>Happy Customers</p>
+							</div>
+							<!--/column -->
+							<div class="col-md-4 text-center">
+								<h3 class="counter counter-lg text-primary">4x</h3>
+								<p>Revenue Growth</p>
+							</div>
+							<!--/column -->
+						</div>
+						<!--/.row -->
+					</div>
+					<!-- /column -->
+				</div>
+				<!-- /.row -->
+				<div class="row position-relative" style="z-index: 1">
+					<div class="col-lg-10 col-xl-9 mx-auto mt-11 mb-sm-n20 mb-md-n22">
+						<figure><img class="img-fluid" src="@@webRoot/assets/img/illustrations/i32.png" srcset="@@webRoot/assets/img/illustrations/i32@2x.png 2x" alt=""></figure>
+					</div>
+					<!-- /column -->
+				</div>
+				<!-- /.row -->
+			</div>
+			<!-- /.container -->
+			<div class="overflow-hidden">
+				<div class="divider text-soft-primary mx-n2">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 70"><path fill="currentColor" d="M1440,70H0V45.16a5762.49,5762.49,0,0,1,1440,0Z"/></svg>
+				</div>
+			</div>
+		</section>
+		<!-- /section -->
+	</div>
+	<!-- /.content-wrapper -->
+	<footer class="bg-soft-primary">
+		<div class="container pt-17 pt-md-19 pb-14 pb-md-16">
+			@@include('_footer-widgets.html')
+		</div>
+		<!-- /.container -->
+	</footer>
+	@@include('_page-progress.html')
+	@@include('_scripts.html')
+</body>
+</html>

@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	@@include('_head.html')
+	<link rel="preload" href="@@webRoot/assets/css/fonts/space.css" as="style" onload="this.rel='stylesheet'">
+</head>
+<body class="box-layout">
+	<div class="content-wrapper bg-light">
+		<header class="position-absolute w-100 pt-1">
+			@@include('_navbar.html', {
+				"classList": "center-nav transparent navbar-dark caret-none",
+				"logoAlt": "logo-dark",
+				"logoLight": true,
+				"logoBoth": true,
+				"otherClassList": "w-100 d-flex ms-auto",
+				"otherSearch": true,
+				"otherInfo": true
+			})
+		</header>
+		<!-- /header -->
+		<section class="wrapper gradient-8 bg-lines">
+			<div class="container pt-17 pt-md-19 pb-21 pb-lg-23 text-center">
+				<div class="row">
+					<div class="col-lg-10 col-xl-9 col-xxl-8 mx-auto" data-cues="zoomIn" data-group="page-title" data-interval="-200" data-delay="500">
+						<h2 class="h6 text-uppercase ls-xl text-white mb-5">Hello! We are Sandbox</h2>
+						<h1 class="display-1 fs-68 lh-xxs mb-8 text-white">We have considered our solutions to <span class="underline-2 underline-gradient-6"><em>assist</em></span> every stage of your growth.</h1>
+						<div class="d-flex justify-content-center mb-4" data-cues="zoomIn" data-group="page-title-buttons" data-delay="900">
+							<span><a href="#" class="btn btn-lg btn-white">Explore Now</a></span>
+						</div>
+					</div>
+					<!-- /column -->
+				</div>
+				<!-- /.row -->
+			</div>
+			<!-- /.container -->
+		</section>
+		<!-- /section -->
+		<section class="wrapper bg-light">
+			<div class="container py-15 py-md-17 position-relative">
+				<figure class="rounded mt-n21 mt-lg-n23 mb-16 mb-md-18 position-relative" data-cues="fadeIn" data-delay="250">
+					<a href="@@webRoot/assets/media/movie3.mp4" class="btn btn-circle btn-white btn-play ripple mx-auto position-absolute" style="top:50%; left: 50%; transform: translate(-50%,-50%); z-index:3;" data-glightbox><i class="icn-caret-right"></i></a>
+					<video class="w-100 rounded caption-overlay d-block" poster="@@webRoot/assets/img/photos/movie3.jpg" src="@@webRoot/assets/media/movie3.mp4" autoplay loop playsinline muted></video>
+				</figure>
+				<div class="row gy-10 gy-sm-13 gx-md-8 gx-xl-12 align-items-center mb-10 mb-md-12">
+					<div class="col-lg-6">
+						<div class="row gx-md-5 gy-5">
+							<div class="col-md-6">
+								<figure class="rounded"><img src="@@webRoot/assets/img/photos/g12.jpg" srcset="@@webRoot/assets/img/photos/g12@2x.jpg 2x" alt=""></figure>
+							</div>
+							<!--/column -->
+							<div class="col-md-6 align-self-end">
+								<figure class="rounded"><img src="@@webRoot/assets/img/photos/g13.jpg" srcset="@@webRoot/assets/img/photos/g13@2x.jpg 2x" alt=""></figure>
+							</div>
+							<!--/column -->
+							<div class="col-12">
+								<figure class="rounded mx-md-5"><img src="@@webRoot/assets/img/photos/g11.jpg" srcset="@@webRoot/assets/img/photos/g11@2x.jpg 2x" alt=""></figure>
+							</div>
+							<!--/column -->
+						</div>
+						<!--/.row -->
+					</div>
+					<!--/column -->
+					<div class="col-lg-6">
+						<h2 class="fs-16 text-uppercase text-primary mb-3">Who Are We?</h2>
+						<h3 class="display-3 mb-5">Company that believes in the power of creative strategy.</h3>
+						<p class="mb-6">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed.</p>
+						<div class="row align-items-center counter-wrapper gy-6">
+							<div class="col-md-6">
+								<h3 class="counter counter-lg mb-1">99.7%</h3>
+								<h5 class="mb-0">Customer Satisfaction</h5>
+							</div>
+							<!--/column -->
+							<div class="col-md-6">
+								<h3 class="counter counter-lg mb-1">12x</h3>
+								<h5 class="mb-0">Revenue Growth</h5>
+							</div>
+							<!--/column -->
+						</div>
+						<!--/.row -->
+					</div>
+					<!--/column -->
+				</div>
+				<!--/.row -->
+				<div class="row gx-lg-8 gx-xl-12 gy-6 mb-7 mb-md-9">
+					<div class="col-lg-4">
+						<div class="d-flex flex-row">
+							<div>
+								<div class="icon btn btn-block pe-none btn-soft-primary me-4 w-10 h-10"> <span class="number fs-18">1</span> </div>
+							</div>
+							<div>
+								<h3>Our Vision</h3>
+								<p class="mb-2">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget. Fusce dapibus tellus.</p>
+							</div>
+						</div>
+					</div>
+					<!--/column -->
+					<div class="col-lg-4">
+						<div class="d-flex flex-row">
+							<div>
+								<div class="icon btn btn-block pe-none btn-soft-primary me-4 w-10 h-10"> <span class="number fs-18">2</span> </div>
+							</div>
+							<div>
+								<h3>Our Mission</h3>
+								<p class="mb-2">Maecenas faucibus mollis interdum. Vivamus sagittis lacus vel augue laoreet. Sed posuere consectetur.</p>
+							</div>
+						</div>
+					</div>
+					<!--/column -->
+					<div class="col-lg-4">
+						<div class="d-flex flex-row">
+							<div>
+								<div class="icon btn btn-block pe-none btn-soft-primary me-4 w-10 h-10"> <span class="number fs-18">3</span> </div>
+							</div>
+							<div>
+								<h3>Our Values</h3>
+								<p class="mb-2">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna scelerisque.</p>
+							</div>
+						</div>
+					</div>
+					<!--/column -->
+				</div>
+				<!--/.row -->
+				<div class="text-center"><a href="#" class="btn btn-primary">More Details</a></div>
+			</div>
+			<!-- /.container -->
+		</section>
+		<!-- /section -->
+		<section class="wrapper bg-dark text-inverse">
+			<div class="container py-15 py-md-17">
+				<div class="row text-center">
+					<div class="col-lg-10 col-xl-9 col-xxl-8 mx-auto">
+						<h2 class="fs-16 text-uppercase text-white mb-3">Our Services</h2>
+						<h3 class="display-3 text-white mb-10">The full service we are offering is specifically designed to meet your business needs.</h3>
+					</div>
+					<!-- /column -->
+				</div>
+				<!-- /.row -->
+				<div class="row gx-lg-8 gx-xl-12 gy-9">
+					<div class="col-md-6 col-lg-4">
+						<div class="d-flex flex-row">
+							<div>
+								<img src="@@webRoot/assets/img/illustrations/ni1.png" class="w-13 me-5" alt="" />
+							</div>
+							<div>
+								<h3 class="mb-2 text-white">Marketing Automation</h3>
+								<p class="mb-0">Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit.</p>
+							</div>
+						</div>
+					</div>
+					<!--/column -->
+					<div class="col-md-6 col-lg-4">
+						<div class="d-flex flex-row">
+							<div>
+								<img src="@@webRoot/assets/img/illustrations/ni2.png" class="w-13 me-5" alt="" />
+							</div>
+							<div>
+								<h3 class="mb-2 text-white">Project Management</h3>
+								<p class="mb-0">Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit.</p>
+							</div>
+						</div>
+					</div>
+					<!--/column -->
+					<div class="col-md-6 col-lg-4">
+						<div class="d-flex flex-row">
+							<div>
+								<img src="@@webRoot/assets/img/illustrations/ni3.png" class="w-13 me-5" alt="" />
+							</div>
+							<div>
+								<h3 class="mb-2 text-white">Web Analytics</h3>
+								<p class="mb-0">Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit.</p>
+							</div>
+						</div>
+					</div>
+					<!--/column -->
+					<div class="col-md-6 col-lg-4">
+						<div class="d-flex flex-row">
+							<div>
+								<img src="@@webRoot/assets/img/illustrations/ni4.png" class="w-13 me-5" alt="" />
+							</div>
+							<div>
+								<h3 class="mb-2 text-white">SEO Services</h3>
+								<p class="mb-0">Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit.</p>
+							</div>
+						</div>
+					</div>
+					<!--/column -->
+					<div class="col-md-6 col-lg-4">
+						<div class="d-flex flex-row">
+							<div>
+								<img src="@@webRoot/assets/img/illustrations/ni5.png" class="w-13 me-5" alt="" />
+							</div>
+							<div>
+								<h3 class="mb-2 text-white">Market Research</h3>
+								<p class="mb-0">Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit.</p>
+							</div>
+						</div>
+					</div>
+					<!--/column -->
+					<div class="col-md-6 col-lg-4">
+						<div class="d-flex flex-row">
+							<div>
+								<img src="@@webRoot/assets/img/illustrations/ni6.png" class="w-13 me-5" alt="" />
+							</div>
+							<div>
+								<h3 class="mb-2 text-white">Social Media Management</h3>
+								<p class="mb-0">Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit.</p>
+							</div>
+						</div>
+					</div>
+					<!--/column -->
+				</div>
+				<!--/.row -->
+			</div>
+			<!-- /.container -->
+		</section>
+		<!-- /section -->
+		<section class="wrapper bg-light">
+			<div class="container py-15 py-md-17">
+				<div class="row gx-md-8 gy-10 align-items-center">
+					<div class="col-lg-6 offset-lg-1 order-lg-2 position-relative">
+						<figure class="rounded"><img class="img-fluid" src="@@webRoot/assets/img/photos/about27.jpg" srcset="@@webRoot/assets/img/photos/about27@2x.jpg 2x" alt="" /></figure>
+						<div class="card shadow-lg position-absolute d-none d-md-block" style="top: 15%; left: -7%">
+							<div class="card-body py-4 px-5">
+								<div class="d-flex flex-row align-items-center">
+									<div>
+										<div class="icon btn btn-block btn-soft-primary pe-none mx-auto me-4 w-10 h-10"> <i class="uil uil-users-alt"></i> </div>
+									</div>
+									<div>
+										<h3 class="fs-25 counter mb-0 text-nowrap">25000+</h3>
+										<p class="fs-16 lh-sm mb-0 text-nowrap">Happy Clients</p>
+									</div>
+								</div>
+							</div>
+							<!--/.card-body -->
+						</div>
+						<!--/.card -->
+						<div class="card shadow-lg position-absolute text-center d-none d-md-block" style="bottom: 10%; left: -10%;">
+							<div class="card-body p-6">
+								<div class="progressbar semi-circle primary mb-3" data-value="80"></div>
+								<h4 class="mb-0">Time Saved</h4>
+							</div>
+							<!--/.card-body -->
+						</div>
+						<!--/.card -->
+					</div>
+					<!--/column -->
+					<div class="col-lg-5">
+						<h2 class="fs-16 text-uppercase text-primary mb-3">What Makes Us Different?</h2>
+						<h3 class="display-3 mb-5">We make spending stress free so you have the perfect control.</h3>
+						<p class="mb-6">Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus. Integer posuere erat a ante venenatis.</p>
+						<ul class="icon-list bullet-bg bullet-soft-primary">
+							<li><i class="uil uil-check"></i>Aenean eu leo quam. Pellentesque ornare.</li>
+							<li><i class="uil uil-check"></i>Nullam quis risus eget urna mollis ornare.</li>
+							<li><i class="uil uil-check"></i>Donec id elit non mi porta gravida at eget.</li>
+						</ul>
+					</div>
+					<!--/column -->
+				</div>
+				<!--/.row -->
+			</div>
+			<!-- /.container -->
+		</section>
+		<!-- /section -->
+		<section class="wrapper bg-gray">
+			<div class="container py-15 py-md-17">
+				<div class="row text-center">
+					<div class="col-lg-10 col-xl-9 col-xxl-8 mx-auto">
+						<h2 class="fs-16 text-uppercase text-primary mb-3">Case Studies</h2>
+						<h3 class="display-3 mb-10">Check out some of our awesome projects with creative ideas and great design.</h3>
+					</div>
+					<!-- /column -->
+				</div>
+				<!-- /.row -->
+				<div class="row grid-view gy-6">
+					<div class="col-md-6 col-lg-4">
+						<article>
+							<div class="card shadow-lg">
+								<figure class="card-img-top overlay overlay-1 hover-scale"><a href="#"> <img src="@@webRoot/assets/img/photos/b4.jpg" alt="" /></a>
+									<figcaption>
+										<h5 class="from-top mb-0">Read More</h5>
+									</figcaption>
+								</figure>
+								<div class="card-body">
+									<div class="post-header">
+										<h2 class="post-title h3 mt-1 mb-3"><a class="link-dark" href="@@webRoot/blog-post.html">Ligula tristique quis risus</a></h2>
+									</div>
+									<!-- /.post-header -->
+									<div class="post-content">
+										<p>Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus vestibulum cras imperdiet nun eu dolor.</p>
+									</div>
+									<!-- /.post-content -->
+								</div>
+								<!--/.card-body -->
+								<div class="card-footer">
+									<ul class="post-meta d-flex mb-0">
+										<li class="post-date"><i class="uil uil-calendar-alt"></i><span>14 Apr 2022</span></li>
+										<li class="post-comments"><a href="#"><i class="uil uil-file-alt fs-15"></i>Coding</a></li>
+									</ul>
+									<!-- /.post-meta -->
+								</div>
+								<!-- /.card-footer -->
+							</div>
+							<!-- /.card -->
+						</article>
+						<!-- /article -->
+					</div>
+					<!-- /column -->
+					<div class="col-md-6 col-lg-4">
+						<article>
+							<div class="card shadow-lg">
+								<figure class="card-img-top overlay overlay-1 hover-scale"><a href="#"> <img src="@@webRoot/assets/img/photos/b5.jpg" alt="" /></a>
+									<figcaption>
+										<h5 class="from-top mb-0">Read More</h5>
+									</figcaption>
+								</figure>
+								<div class="card-body">
+									<div class="post-header">
+										<h2 class="post-title h3 mt-1 mb-3"><a class="link-dark" href="@@webRoot/blog-post.html">Nullam id dolor elit id nibh</a></h2>
+									</div>
+									<!-- /.post-header -->
+									<div class="post-content">
+										<p>Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus vestibulum cras imperdiet nun eu dolor.</p>
+									</div>
+									<!-- /.post-content -->
+								</div>
+								<!--/.card-body -->
+								<div class="card-footer">
+									<ul class="post-meta d-flex mb-0">
+										<li class="post-date"><i class="uil uil-calendar-alt"></i><span>29 Mar 2022</span></li>
+										<li class="post-comments"><a href="#"><i class="uil uil-file-alt fs-15"></i>Office</a></li>
+									</ul>
+									<!-- /.post-meta -->
+								</div>
+								<!-- /.card-footer -->
+							</div>
+							<!-- /.card -->
+						</article>
+						<!-- /article -->
+					</div>
+					<!-- /column -->
+					<div class="col-md-6 col-lg-4">
+						<article>
+							<div class="card shadow-lg">
+								<figure class="card-img-top overlay overlay-1 hover-scale"><a href="#"> <img src="@@webRoot/assets/img/photos/b6.jpg" alt="" /></a>
+									<figcaption>
+										<h5 class="from-top mb-0">Read More</h5>
+									</figcaption>
+								</figure>
+								<div class="card-body">
+									<div class="post-header">
+										<h2 class="post-title h3 mt-1 mb-3"><a class="link-dark" href="@@webRoot/blog-post.html">Ultricies fusce porta elit</a></h2>
+									</div>
+									<!-- /.post-header -->
+									<div class="post-content">
+										<p>Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus vestibulum cras imperdiet nun eu dolor.</p>
+									</div>
+									<!-- /.post-content -->
+								</div>
+								<!--/.card-body -->
+								<div class="card-footer">
+									<ul class="post-meta d-flex mb-0">
+										<li class="post-date"><i class="uil uil-calendar-alt"></i><span>26 Feb 2022</span></li>
+										<li class="post-comments"><a href="#"><i class="uil uil-file-alt fs-15"></i>Meeting</a></li>
+									</ul>
+									<!-- /.post-meta -->
+								</div>
+								<!-- /.card-footer -->
+							</div>
+							<!-- /.card -->
+						</article>
+						<!-- /article -->
+					</div>
+					<!-- /column -->
+				</div>
+				<!-- /.row -->
+			</div>
+			<!-- /.container -->
+		</section>
+		<!-- /section -->
+		<section class="wrapper bg-light">
+			<div class="container py-15 py-md-17">
+				<div class="row">
+					<div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2 mx-auto text-center">
+						<h2 class="fs-16 text-uppercase text-primary mb-3">Why Choose Sandbox?</h2>
+						<h3 class="display-3 mb-10 px-xl-10 px-xxl-15">Here are a few reasons why our customers choose Sandbox.</h3>
+					</div>
+					<!-- /column -->
+				</div>
+				<!-- /.row -->
+				<ul class="nav nav-tabs nav-tabs-bg nav-tabs-shadow-lg d-flex justify-content-between nav-justified flex-lg-row flex-column">
+					<li class="nav-item"> <a class="nav-link d-flex flex-row active" data-bs-toggle="tab" href="#tab2-1">
+							<div><img src="@@webRoot/assets/img/illustrations/ni7.png" class="w-13 me-5" alt="" /></div>
+							<div>
+								<h3 class="mb-2">Easy Usage</h3>
+								<p>Duis mollis commodo luctus cursus commodo tortor.</p>
+							</div>
+						</a> </li>
+					<li class="nav-item"> <a class="nav-link d-flex flex-row" data-bs-toggle="tab" href="#tab2-2">
+							<div><img src="@@webRoot/assets/img/illustrations/ni8.png" class="w-13 me-5" alt="" /></div>
+							<div>
+								<h3 class="mb-2">Fast Transactions</h3>
+								<p>Vivamus sagittis lacus augue fusce dapibus tellus nibh.</p>
+							</div>
+						</a> </li>
+					<li class="nav-item"> <a class="nav-link d-flex flex-row" data-bs-toggle="tab" href="#tab2-3">
+							<div><img src="@@webRoot/assets/img/illustrations/ni9.png" class="w-13 me-5" alt="" /></div>
+							<div>
+								<h3 class="mb-2">Secure Payments</h3>
+								<p>Vestibulum ligula porta felis maecenas faucibus mollis.</p>
+							</div>
+						</a> </li>
+				</ul>
+				<!-- /.nav-tabs -->
+				<div class="tab-content mt-6 mt-lg-8 mb-md-9">
+					<div class="tab-pane fade show active" id="tab2-1">
+						<div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+							<div class="col-lg-6">
+								<div class="row gx-md-5 gy-5 align-items-center">
+									<div class="col-6">
+										<img class="img-fluid rounded shadow-lg d-flex ms-auto" src="@@webRoot/assets/img/photos/sa13.jpg" srcset="@@webRoot/assets/img/photos/sa13@2x.jpg 2x" alt="" />
+									</div>
+									<!-- /column -->
+									<div class="col-6">
+										<img class="img-fluid rounded shadow-lg mb-5" src="@@webRoot/assets/img/photos/sa14.jpg" srcset="@@webRoot/assets/img/photos/sa14@2x.jpg 2x" alt="" />
+										<img class="img-fluid rounded shadow-lg d-flex col-10" src="@@webRoot/assets/img/photos/sa15.jpg" srcset="@@webRoot/assets/img/photos/sa15@2x.jpg 2x" alt="" />
+									</div>
+									<!-- /column -->
+								</div>
+								<!-- /.row -->
+							</div>
+							<!--/column -->
+							<div class="col-lg-6">
+								<h2 class="mb-3">Easy Usage</h2>
+								<p>Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam quis risus eget urna.</p>
+								<ul class="icon-list bullet-bg bullet-soft-primary">
+									<li><i class="uil uil-check"></i>Aenean eu leo quam. Pellentesque ornare.</li>
+									<li><i class="uil uil-check"></i>Nullam quis risus eget urna mollis ornare.</li>
+									<li><i class="uil uil-check"></i>Donec id elit non mi porta gravida at eget.</li>
+								</ul>
+								<a href="#" class="btn btn-primary mt-2">Learn More</a>
+							</div>
+							<!--/column -->
+						</div>
+						<!--/.row -->
+					</div>
+					<!--/.tab-pane -->
+					<div class="tab-pane fade" id="tab2-2">
+						<div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+							<div class="col-lg-6 order-lg-2">
+								<div class="row gx-md-5 gy-5">
+									<div class="col-5">
+										<img class="img-fluid rounded shadow-lg my-5 d-flex ms-auto" src="@@webRoot/assets/img/photos/sa9.jpg" srcset="@@webRoot/assets/img/photos/sa9@2x.jpg 2x" alt="" />
+										<img class="img-fluid rounded shadow-lg d-flex col-10 ms-auto" src="@@webRoot/assets/img/photos/sa10.jpg" srcset="@@webRoot/assets/img/photos/sa10@2x.jpg 2x" alt="" />
+									</div>
+									<!-- /column -->
+									<div class="col-7">
+										<img class="img-fluid rounded shadow-lg mb-5" src="@@webRoot/assets/img/photos/sa11.jpg" srcset="@@webRoot/assets/img/photos/sa11@2x.jpg 2x" alt="" />
+										<img class="img-fluid rounded shadow-lg d-flex col-11" src="@@webRoot/assets/img/photos/sa12.jpg" srcset="@@webRoot/assets/img/photos/sa12@2x.jpg 2x" alt="" />
+									</div>
+									<!-- /column -->
+								</div>
+								<!-- /.row -->
+							</div>
+							<!--/column -->
+							<div class="col-lg-6">
+								<h2 class="mb-3">Fast Transactions</h2>
+								<p>Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam quis risus eget urna.</p>
+								<ul class="icon-list bullet-bg bullet-soft-primary">
+									<li><i class="uil uil-check"></i>Aenean eu leo quam. Pellentesque ornare.</li>
+									<li><i class="uil uil-check"></i>Nullam quis risus eget urna mollis ornare.</li>
+									<li><i class="uil uil-check"></i>Donec id elit non mi porta gravida at eget.</li>
+								</ul>
+								<a href="#" class="btn btn-primary mt-2">Learn More</a>
+							</div>
+							<!--/column -->
+						</div>
+						<!--/.row -->
+					</div>
+					<!--/.tab-pane -->
+					<div class="tab-pane fade" id="tab2-3">
+						<div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+							<div class="col-lg-6">
+								<div class="row gx-md-5 gy-5">
+									<div class="col-6">
+										<img class="img-fluid rounded shadow-lg mb-5" src="@@webRoot/assets/img/photos/sa5.jpg" srcset="@@webRoot/assets/img/photos/sa5@2x.jpg 2x" alt="" />
+										<img class="img-fluid rounded shadow-lg d-flex col-10 ms-auto" src="@@webRoot/assets/img/photos/sa6.jpg" srcset="@@webRoot/assets/img/photos/sa6@2x.jpg 2x" alt="" />
+									</div>
+									<!-- /column -->
+									<div class="col-6">
+										<img class="img-fluid rounded shadow-lg my-5" src="@@webRoot/assets/img/photos/sa7.jpg" srcset="@@webRoot/assets/img/photos/sa7@2x.jpg 2x" alt="" />
+										<img class="img-fluid rounded shadow-lg d-flex col-10" src="@@webRoot/assets/img/photos/sa8.jpg" srcset="@@webRoot/assets/img/photos/sa8@2x.jpg 2x" alt="" />
+									</div>
+									<!-- /column -->
+								</div>
+								<!-- /.row -->
+							</div>
+							<!--/column -->
+							<div class="col-lg-6">
+								<h2 class="mb-3">Secure Payments</h2>
+								<p>Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam quis risus eget urna.</p>
+								<ul class="icon-list bullet-bg bullet-soft-primary">
+									<li><i class="uil uil-check"></i>Aenean eu leo quam. Pellentesque ornare.</li>
+									<li><i class="uil uil-check"></i>Nullam quis risus eget urna mollis ornare.</li>
+									<li><i class="uil uil-check"></i>Donec id elit non mi porta gravida at eget.</li>
+								</ul>
+								<a href="#" class="btn btn-primary mt-2">Learn More</a>
+							</div>
+							<!--/column -->
+						</div>
+						<!--/.row -->
+					</div>
+					<!--/.tab-pane -->
+				</div>
+				<!-- /.tab-content -->
+			</div>
+			<!-- /.container -->
+		</section>
+		<!-- /section -->
+		<section class="wrapper bg-gray">
+			<div class="container pt-15 pt-md-17">
+				<div class="row">
+					<div class="col-xl-9 col-xxl-8 mx-auto text-center">
+						<h2 class="fs-16 text-uppercase text-primary mb-3">Our Team</h2>
+						<h3 class="display-3 px-lg-18 px-xl-12 px-xxl-15 mb-6">Save your time and money by choosing our professional team.</h3>
+						<p class="mb-8 px-lg-10 px-xl-0">Curabitur blandit tempus porttitor. Maecenas faucibus mollis interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+						<a href="#" class="btn btn-primary">Read More</a>
+					</div>
+					<!-- /column -->
+				</div>
+				<!-- /.row -->
+			</div>
+			<!-- /.container -->
+			<figure><img src="@@webRoot/assets/img/photos/bg12.jpg" alt="" /></figure>
+		</section>
+		<!-- /section -->
+		<section class="wrapper gradient-8 bg-lines">
+			<div class="container py-15 pt-md-0 pb-md-17 text-center">
+				<div class="row text-center">
+					<div class="col-xl-9 mx-auto">
+						<div class="card shadow-lg mt-md-n16 mb-15 mb-md-17">
+							<div class="card-body p-9 p-xl-12">
+								<div class="row gx-0">
+									<div class="col-xxl-9 mx-auto">
+										<div class="swiper-container dots-closer mb-6" data-margin="30" data-dots="true">
+											<div class="swiper">
+												<div class="swiper-wrapper">
+													<div class="swiper-slide">
+														<span class="ratings five mb-3"></span>
+														<blockquote class="border-0 fs-lg mb-2">
+															<p>“Vivamus sagittis lacus augue laoreet rutrum faucibus auctor vestibulum ligula porta felis, euismod semper cras justo odio.”</p>
+															<div class="blockquote-details justify-content-center">
+																<img class="rounded-circle w-12" src="./assets/img/avatars/te1.jpg" srcset="./assets/img/avatars/te1@2x.jpg 2x" alt="" />
+																<div class="info">
+																	<h5 class="mb-1">Coriss Ambady</h5>
+																	<p class="mb-0">Financial Analyst</p>
+																</div>
+															</div>
+														</blockquote>
+													</div>
+													<!--/.swiper-slide -->
+													<div class="swiper-slide">
+														<span class="ratings five mb-3"></span>
+														<blockquote class="border-0 fs-lg mb-2">
+															<p>“Vivamus sagittis lacus augue laoreet rutrum faucibus auctor vestibulum ligula porta felis, euismod semper cras justo odio.”</p>
+															<div class="blockquote-details justify-content-center">
+																<img class="rounded-circle w-12" src="./assets/img/avatars/te2.jpg" srcset="./assets/img/avatars/te2@2x.jpg 2x" alt="" />
+																<div class="info">
+																	<h5 class="mb-1">Cory Zamora</h5>
+																	<p class="mb-0">Marketing Specialist</p>
+																</div>
+															</div>
+														</blockquote>
+													</div>
+													<!--/.swiper-slide -->
+													<div class="swiper-slide">
+														<span class="ratings five mb-3"></span>
+														<blockquote class="border-0 fs-lg mb-2">
+															<p>“Vivamus sagittis lacus augue laoreet rutrum faucibus auctor vestibulum ligula porta felis, euismod semper cras justo odio.”</p>
+															<div class="blockquote-details justify-content-center">
+																<img class="rounded-circle w-12" src="./assets/img/avatars/te3.jpg" srcset="./assets/img/avatars/te3@2x.jpg 2x" alt="" />
+																<div class="info">
+																	<h5 class="mb-1">Nikolas Brooten</h5>
+																	<p class="mb-0">Sales Manager</p>
+																</div>
+															</div>
+														</blockquote>
+													</div>
+													<!--/.swiper-slide -->
+												</div>
+												<!--/.swiper-wrapper -->
+											</div>
+											<!--/.swiper -->
+										</div>
+										<!-- /.swiper-container -->
+									</div>
+									<!-- /column -->
+								</div>
+								<!-- /.row -->
+							</div>
+							<!--/.card-body -->
+						</div>
+						<!--/.card -->
+					</div>
+					<!-- /column -->
+				</div>
+				<!-- /.row -->
+				<div class="row">
+					<div class="col-lg-9 col-xl-8 col-xxl-7 mx-auto text-center">
+						<h2 class="fs-16 text-uppercase text-white mb-3">Join Our Community</h2>
+						<h3 class="display-3 text-white mb-6">We are <span class="underline-2 underline-gradient-6"><em>trusted</em></span> by over 5000+ clients. Join them now and grow your business.</h3>
+						<a href="#" class="btn btn-white">Join Us</a>
+					</div>
+					<!-- /column -->
+				</div>
+				<!-- /.row -->
+			</div>
+			<!-- /.container -->
+		</section>
+		<!-- /section -->
+	</div>
+	<!-- /.content-wrapper -->
+	<footer class="wrapper bg-dark text-inverse">
+		<div class="container py-13 py-md-15">
+			@@include('_footer-widgets.html', {
+				"lightText": true
+			})
+		</div>
+		<!-- /.container -->
+	</footer>
+	@@include('_page-progress.html')
+	@@include('_scripts.html')
+</body>
+</html>

@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	@@include('_head.html')
+	<link rel="stylesheet" href="@@webRoot/assets/css/colors/navy.css">
+	<link rel="preload" href="@@webRoot/assets/css/fonts/space.css" as="style" onload="this.rel='stylesheet'">
+</head>
+<body>
+	<div class="content-wrapper">
+		<header class="wrapper bg-soft-primary my-1">
+			@@include('_navbar.html', {
+				"classList": "center-nav navbar-light navbar-bg-light",
+				"logoAlt": "logo-dark",
+				"otherClassList": "w-100 d-flex ms-auto",
+				"otherBtn": true,
+				"otherBtnClassList": "btn-sm btn-primary",
+				"otherBtnText": "Contact Me",
+				"otherBtnLink": "@@webRoot/contact.html"
+			})
+		</header>
+		<!-- /header -->
+		<section class="section-frame mx-xxl-11 overflow-hidden">
+			<div class="wrapper image-wrapper bg-image bg-cover bg-overlay bg-overlay-light-500" data-image-src="@@webRoot/assets/img/photos/bg23.png">
+				<div class="container py-16 py-md-18 text-center position-relative">
+					<div class="position-absolute shape yellow d-none d-lg-block w-5" style="top: 18%; left: 5%;"><img src="@@webRoot/assets/img/svg/pie.svg" class="svg-inject icon-svg w-100 h-100" alt="" /></div>
+					<div class="position-absolute shape leaf d-none d-lg-block w-10" style="bottom: 30%; left: 2%;"><img src="@@webRoot/assets/img/svg/scribble.svg" class="svg-inject icon-svg w-100 h-100" alt="" /></div>
+					<div class="position-absolute shape fuchsia d-none d-lg-block w-6" style="top: 20%; right: 2%; transform: rotate(70deg);"><img src="@@webRoot/assets/img/svg/tri.svg" class="svg-inject icon-svg w-100 h-100" alt="" /></div>
+					<div class="position-absolute shape grape d-none d-lg-block w-6" style="bottom: 28%; right: 5%;"><img src="@@webRoot/assets/img/svg/circle.svg" class="svg-inject icon-svg w-100 h-100" alt="" /></div>
+					<div class="row">
+						<div class="col-lg-9 col-xxl-8 mx-auto">
+							<h1 class="display-1 fs-70 px-md-10 px-lg-0 px-xl-8 mb-5">👋 Hello! I'm <img class="d-inline w-12 mx-1" src="@@webRoot/assets/img/avatars/avatar.png" alt=""> Camille, a product designer.</h1>
+							<p class="lead fs-24 px-md-10 px-lg-0 mx-lg-n10 mx-xl-0 mb-8">I’m very passionate about the work that I do, and if you are curious you can find my works on <a href="#" class="hover" style="color: var(--bs-dribbble);">Dribbble</a>, my portfolio on <a href="#" class="hover" style="color: var(--bs-behance);">Behance</a>.</p>
+							<a href="#" class="btn btn-lg btn-primary btn-icon btn-icon-end">See My Works <i class="uil uil-arrow-up-right"></i></a>
+						</div>
+						<!-- /column -->
+					</div>
+					<!-- /.row -->
+				</div>
+				<!-- /.container -->
+			</div>
+			<!-- /.wrapper -->
+		</section>
+		<!-- /section -->
+		<section class="wrapper bg-light">
+			<div class="container py-16 py-md-18">
+				<div class="row d-flex align-items-start gy-10 mb-18 mb-md-20">
+					<div class="col-lg-5 position-lg-sticky" style="top: 8rem;">
+						<h3 class="display-2 mb-5">The service I offer is specifically designed to meet your needs.</h3>
+						<p class="mb-7">Cras mattis consectetur purus sit amet fermentum. Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+						<a href="#" class="btn btn-lg btn-primary btn-icon btn-icon-end">More Details <i class="uil uil-arrow-up-right"></i></a>
+					</div>
+					<!-- /column -->
+					<div class="col-lg-6 ms-auto">
+						<div class="card bg-soft-fuchsia mb-6">
+							<div class="card-body d-flex flex-row">
+								<div>
+									<img src="@@webRoot/assets/img/icons/lineal/search-2.svg" class="svg-inject icon-svg icon-svg-md text-fuchsia me-5" alt="" />
+								</div>
+								<div>
+									<h3 class="fs-21 mb-2">User Research</h3>
+									<p class="mb-0">Duis mollis gravida commodo id luctus erat porttitor ligula, nulla non metus auctor eget lacinia odio sem aget elit.</p>
+								</div>
+							</div>
+							<!-- /.card-body -->
+						</div>
+						<!-- /.card -->
+						<div class="card bg-soft-aqua mb-6">
+							<div class="card-body d-flex flex-row">
+								<div>
+									<img src="@@webRoot/assets/img/icons/lineal/puzzle-2.svg" class="svg-inject icon-svg icon-svg-md text-aqua me-5" alt="" />
+								</div>
+								<div>
+									<h3 class="fs-21 mb-2">Strategy & Planning</h3>
+									<p class="mb-0">Duis mollis gravida commodo id luctus erat porttitor ligula, nulla non metus auctor eget lacinia odio sem aget elit.</p>
+								</div>
+							</div>
+							<!-- /.card-body -->
+						</div>
+						<!-- /.card -->
+						<div class="card bg-soft-yellow mb-6">
+							<div class="card-body d-flex flex-row">
+								<div>
+									<img src="@@webRoot/assets/img/icons/lineal/smartphone.svg" class="svg-inject icon-svg icon-svg-md text-yellow me-5" alt="" />
+								</div>
+								<div>
+									<h3 class="fs-21 mb-2">App Design</h3>
+									<p class="mb-0">Duis mollis gravida commodo id luctus erat porttitor ligula, nulla non metus auctor eget lacinia odio sem aget elit.</p>
+								</div>
+							</div>
+							<!-- /.card-body -->
+						</div>
+						<!-- /.card -->
+						<div class="card bg-soft-leaf mb-6">
+							<div class="card-body d-flex flex-row">
+								<div>
+									<img src="@@webRoot/assets/img/icons/lineal/design.svg" class="svg-inject icon-svg icon-svg-md text-leaf me-5" alt="" />
+								</div>
+								<div>
+									<h3 class="fs-21 mb-2">Brand Design</h3>
+									<p class="mb-0">Duis mollis gravida commodo id luctus erat porttitor ligula, nulla non metus auctor eget lacinia odio sem aget elit.</p>
+								</div>
+							</div>
+							<!-- /.card-body -->
+						</div>
+						<!-- /.card -->
+						<div class="card bg-soft-orange mb-6">
+							<div class="card-body d-flex flex-row">
+								<div>
+									<img src="@@webRoot/assets/img/icons/lineal/video-editing.svg" class="svg-inject icon-svg icon-svg-md text-orange me-5" alt="" />
+								</div>
+								<div>
+									<h3 class="fs-21 mb-2">Motion Graphic</h3>
+									<p class="mb-0">Duis mollis gravida commodo id luctus erat porttitor ligula, nulla non metus auctor eget lacinia odio sem aget elit.</p>
+								</div>
+							</div>
+							<!-- /.card-body -->
+						</div>
+						<!-- /.card -->
+						<div class="card bg-soft-grape">
+							<div class="card-body d-flex flex-row">
+								<div>
+									<img src="@@webRoot/assets/img/icons/lineal/browser.svg" class="svg-inject icon-svg icon-svg-md text-grape me-5" alt="" />
+								</div>
+								<div>
+									<h3 class="fs-21 mb-2">Web Design</h3>
+									<p class="mb-0">Duis mollis gravida commodo id luctus erat porttitor ligula, nulla non metus auctor eget lacinia odio sem aget elit.</p>
+								</div>
+							</div>
+							<!-- /.card-body -->
+						</div>
+						<!-- /.card -->
+					</div>
+					<!-- /column -->
+				</div>
+				<!-- /.row -->
+				<div class="row align-items-center mb-10">
+					<div class="col-md-8 col-lg-9 col-xl-8 col-xxl-7">
+						<h2 class="display-2 mb-0">Check out some of my latest projects with creative ideas.</h2>
+					</div>
+					<!--/column -->
+					<div class="col-md-4 col-lg-3 ms-md-auto text-md-end mt-5 mt-md-0">
+						<a href="#" class="btn btn-lg btn-primary btn-icon btn-icon-end mb-0">See All Projects <i class="uil uil-arrow-up-right"></i></a>
+					</div>
+					<!--/column -->
+				</div>
+				<!--/.row -->
+				<div class="card bg-soft-violet mb-10">
+					<div class="card-body p-12 pb-0">
+						<div class="row">
+							<div class="col-lg-4 pb-12 align-self-center">
+								<div class="post-category fs-15 mb-3 text-violet">Web Design</div>
+								<h3 class="h1 post-title mb-3">Snowlake Theme</h3>
+								<p>Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis. Scelerisque id ligula porta felis euismod semper. Fusce dapibus tellus cursus.</p>
+								<a href="#" class="btn btn-sm btn-violet btn-icon btn-icon-end mb-0">See Project <i class="uil uil-arrow-up-right"></i></a>
+							</div>
+							<!-- /column -->
+							<div class="col-lg-7 offset-lg-1 align-self-end">
+								<figure><img class="img-fluid" src="@@webRoot/assets/img/photos/f1.png" srcset="@@webRoot/assets/img/photos/f1@2x.png 2x" alt="" /></figure>
+							</div>
+							<!-- /column -->
+						</div>
+						<!-- /.row -->
+					</div>
+					<!--/.card-body -->
+				</div>
+				<!--/.card -->
+				<div class="card bg-soft-blue mb-10">
+					<div class="card-body p-12">
+						<div class="row gy-10 align-items-center">
+							<div class="col-lg-4 order-lg-2 offset-lg-1">
+								<div class="post-category fs-15 mb-3 text-blue">Mobile Design</div>
+								<h3 class="h1 post-title mb-3">Budget App</h3>
+								<p>Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis. Scelerisque id ligula porta felis euismod semper. Fusce dapibus tellus cursus.</p>
+								<a href="#" class="btn btn-sm btn-blue btn-icon btn-icon-end mb-0">See Project <i class="uil uil-arrow-up-right"></i></a>
+							</div>
+							<!-- /column -->
+							<div class="col-lg-7">
+								<figure><img class="img-fluid" src="@@webRoot/assets/img/photos/f2.png" srcset="@@webRoot/assets/img/photos/f2@2x.png 2x" alt="" /></figure>
+							</div>
+							<!-- /column -->
+						</div>
+						<!-- /.row -->
+					</div>
+					<!--/.card-body -->
+				</div>
+				<!--/.card -->
+				<div class="row gx-md-8 gx-xl-10">
+					<div class="col-lg-6">
+						<div class="card bg-soft-leaf mb-10">
+							<div class="card-body p-12 pb-0">
+								<div class="post-category fs-15 mb-3 text-leaf">Web Design</div>
+								<h3 class="h1 post-title mb-3">Missio Theme</h3>
+								<p>Maecenas faucibus mollis interdum sed posuere porta consectetur cursus porta lobortis. Scelerisque id ligula felis.</p>
+								<a href="#" class="btn btn-sm btn-leaf btn-icon btn-icon-end mb-10">See Project <i class="uil uil-arrow-up-right"></i></a>
+							</div>
+							<!--/.card-body -->
+							<img class="card-img-bottom" src="@@webRoot/assets/img/photos/f3.png" srcset="@@webRoot/assets/img/photos/f3@2x.png 2x" alt="" />
+						</div>
+						<!--/.card -->
+					</div>
+					<!-- /column -->
+					<div class="col-lg-6">
+						<div class="card bg-soft-pink">
+							<div class="card-body p-12 pb-0">
+								<div class="post-category fs-15 mb-3 text-pink">Mobile Design</div>
+								<h3 class="h1 post-title mb-3">Storage App</h3>
+								<p>Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis. Scelerisque id ligula porta felis.</p>
+								<a href="#" class="btn btn-sm btn-pink btn-icon btn-icon-end mb-10">See Project <i class="uil uil-arrow-up-right"></i></a>
+							</div>
+							<!--/.card-body -->
+							<img class="card-img-bottom" src="@@webRoot/assets/img/photos/f4.png" srcset="@@webRoot/assets/img/photos/f4@2x.png 2x" alt="" />
+						</div>
+						<!--/.card -->
+					</div>
+					<!-- /column -->
+				</div>
+				<!-- /.row -->
+			</div>
+			<!-- /.container -->
+		</section>
+		<!-- /section -->
+		<section class="section-frame mx-xxl-11">
+			<div class="wrapper image-wrapper bg-image bg-cover bg-overlay bg-overlay-light-500 section-frame-wrapper" data-image-src="@@webRoot/assets/img/photos/bg23.png">
+				<div class="container py-16 py-md-18">
+					<div class="row">
+						<div class="col-md-10 col-lg-9 col-xl-8 mx-auto text-center">
+							<h3 class="display-2 mb-10 px-xxl-10">Don't take our word for it. See what customers are saying about us.</h3>
+						</div>
+						<!-- /column -->
+					</div>
+					<!-- /.row -->
+					<div class="row">
+						<div class="grid col-md-11 mx-auto mb-lg-n23">
+							<div class="row isotope gy-6">
+								<div class="item col-md-6 col-xl-4">
+									<div class="card shadow-lg">
+										<div class="card-body">
+											<span class="ratings five mb-3"></span>
+											<blockquote class="icon mb-0">
+												<p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio dapibus facilisis sociis.”</p>
+												<div class="blockquote-details">
+													<div class="info ps-0">
+														<h5 class="mb-1">Coriss Ambady</h5>
+														<p class="mb-0">Financial Analyst</p>
+													</div>
+												</div>
+											</blockquote>
+										</div>
+										<!-- /.card-body -->
+									</div>
+									<!-- /.card -->
+								</div>
+								<!--/column -->
+								<div class="item col-md-6 col-xl-4">
+									<div class="card shadow-lg">
+										<div class="card-body">
+											<span class="ratings five mb-3"></span>
+											<blockquote class="icon mb-0">
+												<p>“Fusce dapibus, tellus ac cursus tortor mauris condimentum fermentum massa justo sit amet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras mattis consectetur purus sit amet fermentum.”</p>
+												<div class="blockquote-details">
+													<div class="info ps-0">
+														<h5 class="mb-1">Cory Zamora</h5>
+														<p class="mb-0">Marketing Specialist</p>
+													</div>
+												</div>
+											</blockquote>
+										</div>
+										<!-- /.card-body -->
+									</div>
+									<!-- /.card -->
+								</div>
+								<!--/column -->
+								<div class="item col-md-6 col-xl-4">
+									<div class="card shadow-lg">
+										<div class="card-body">
+											<span class="ratings five mb-3"></span>
+											<blockquote class="icon mb-0">
+												<p>“Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam quis risus eget porta ac consectetur vestibulum. Donec sed odio dui consectetur.”</p>
+												<div class="blockquote-details">
+													<div class="info ps-0">
+														<h5 class="mb-1">Nikolas Brooten</h5>
+														<p class="mb-0">Sales Manager</p>
+													</div>
+												</div>
+											</blockquote>
+										</div>
+										<!-- /.card-body -->
+									</div>
+									<!-- /.card -->
+								</div>
+								<!--/column -->
+								<div class="item col-md-6 col-xl-4">
+									<div class="card shadow-lg">
+										<div class="card-body">
+											<span class="ratings five mb-3"></span>
+											<blockquote class="icon mb-0">
+												<p>“Etiam adipiscing tincidunt elit convallis felis suscipit ut. Phasellus rhoncus tincidunt auctor. Nullam eu sagittis mauris. Donec non dolor ac elit aliquam tincidunt at at sapien.”</p>
+												<div class="blockquote-details">
+													<div class="info ps-0">
+														<h5 class="mb-1">Coriss Ambady</h5>
+														<p class="mb-0">Financial Analyst</p>
+													</div>
+												</div>
+											</blockquote>
+										</div>
+										<!-- /.card-body -->
+									</div>
+									<!-- /.card -->
+								</div>
+								<!--/column -->
+								<div class="item col-md-6 col-xl-4">
+									<div class="card shadow-lg">
+										<div class="card-body">
+											<span class="ratings five mb-3"></span>
+											<blockquote class="icon mb-0">
+												<p>“Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus magnis dis montes, nascetur ridiculus mus. Donec sed odio dui.”</p>
+												<div class="blockquote-details">
+													<div class="info ps-0">
+														<h5 class="mb-1">Jackie Sanders</h5>
+														<p class="mb-0">Investment Planner</p>
+													</div>
+												</div>
+											</blockquote>
+										</div>
+										<!-- /.card-body -->
+									</div>
+									<!-- /.card -->
+								</div>
+								<!--/column -->
+								<div class="item col-md-6 col-xl-4">
+									<div class="card shadow-lg">
+										<div class="card-body">
+											<span class="ratings five mb-3"></span>
+											<blockquote class="icon mb-0">
+												<p>“Donec id elit non mi porta gravida at eget metus. Nulla vitae elit libero, a pharetra augue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur.”</p>
+												<div class="blockquote-details">
+													<div class="info ps-0">
+														<h5 class="mb-1">Laura Widerski</h5>
+														<p class="mb-0">Sales Specialist</p>
+													</div>
+												</div>
+											</blockquote>
+										</div>
+										<!-- /.card-body -->
+									</div>
+									<!-- /.card -->
+								</div>
+								<!--/column -->
+							</div>
+							<!-- /.row -->
+						</div>
+						<!-- /.grid-view -->
+					</div>
+					<!-- /.row -->
+				</div>
+				<!-- /.container -->
+			</div>
+			<!-- /.wrapper -->
+		</section>
+		<!-- /section -->
+		<section class="wrapper bg-light">
+			<div class="container py-16 py-md-18">
+				<div class="row gx-md-8 gx-xl-12 gy-10 align-items-center mt-lg-18 mb-16 mb-md-18">
+					<div class="col-md-8 col-lg-6 mx-auto">
+						<div class="img-mask mask-3 px-xxl-5"><img src="@@webRoot/assets/img/avatars/avatar.jpg" srcset="@@webRoot/assets/img/avatars/avatar@2x.jpg 2x" alt="" /></div>
+					</div>
+					<!--/column -->
+					<div class="col-lg-6">
+						<h2 class="display-2 mb-3">More about me</h2>
+						<p class="lead fs-24">👋 Hello! I'm Camille, a multidisciplinary product designer 🧸 based in New York City 🚕. I’m very passionate about the work 💌 that I do.</p>
+						<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh ut fermentum massa justo sit amet risus.</p>
+						<p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur.</p>
+						<a href="#" class="btn btn-primary btn-icon btn-icon-end mt-2">Learn More <i class="uil uil-arrow-up-right"></i></a>
+					</div>
+					<!--/column -->
+				</div>
+				<!-- /.row -->
+				<div class="row gx-md-8 gx-xl-12 gy-10">
+					<div class="col-lg-5 mx-auto">
+						<h2 class="display-2 mb-3">My experiences</h2>
+						<p class="lead fs-24 pe-xxl-8">I've had the pleasure to work with companies 🏢 across a variety of industries 🏛️ I'm always interested in new ✨ and exciting adventures 🧨</p>
+						<a href="#" class="btn btn-primary btn-icon btn-icon-end mt-2">Download Resume <i class="uil uil-arrow-up-right"></i></a>
+					</div>
+					<!--/column -->
+					<div class="col-lg-7">
+						<ul class="timeline">
+							<li class="timeline-item">
+								<div class="timeline-info meta fs-14">Nov 2017 - Present</div>
+								<div class="timeline-marker"></div>
+								<div class="timeline-content">
+									<h3 class="timeline-title">Creative Director at Malory House</h3>
+									<p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non euismod id nulla.</p>
+								</div>
+							</li>
+							<li class="timeline-item">
+								<div class="timeline-info meta fs-14">Sep 2015 - Apr 2017</div>
+								<div class="timeline-marker"></div>
+								<div class="timeline-content">
+									<h3 class="timeline-title">Senior Developer at Longwave Studio</h3>
+									<p>Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis eu pede mollis pretium. Pellentesque ut neque.</p>
+								</div>
+							</li>
+							<li class="timeline-item">
+								<div class="timeline-info meta fs-14">May 2011 - Sep 2015</div>
+								<div class="timeline-marker"></div>
+								<div class="timeline-content">
+									<h3 class="timeline-title">Junior Developer at Webpaint Media</h3>
+									<p>Cras mattis consectetur purus sit amet fermentum. Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<!--/column -->
+				</div>
+				<!-- /.row -->
+			</div>
+			<!-- /.container -->
+		</section>
+		<!-- /section -->
+		<section class="section-frame mx-xxl-11 overflow-hidden">
+			<div class="wrapper image-wrapper bg-image bg-cover bg-overlay bg-overlay-light-500" data-image-src="@@webRoot/assets/img/photos/bg23.png">
+				<div class="container py-16 py-md-18 text-center">
+					<div class="position-absolute shape yellow d-none d-lg-block w-5" style="top: 18%; left: 5%;"><img src="@@webRoot/assets/img/svg/pie.svg" class="svg-inject icon-svg w-100 h-100" alt="" /></div>
+					<div class="position-absolute shape leaf d-none d-lg-block w-10" style="bottom: 30%; left: 2%;"><img src="@@webRoot/assets/img/svg/scribble.svg" class="svg-inject icon-svg w-100 h-100" alt="" /></div>
+					<div class="position-absolute shape fuchsia d-none d-lg-block w-6" style="top: 20%; right: 2%; transform: rotate(70deg);"><img src="@@webRoot/assets/img/svg/tri.svg" class="svg-inject icon-svg w-100 h-100" alt="" /></div>
+					<div class="position-absolute shape grape d-none d-lg-block w-6" style="bottom: 28%; right: 5%;"><img src="@@webRoot/assets/img/svg/circle.svg" class="svg-inject icon-svg w-100 h-100" alt="" /></div>
+					<div class="row">
+						<div class="col-lg-9 col-xxl-8 mx-auto">
+							<h1 class="display-1 fs-70 mx-lg-n10 mx-xl-0 mb-5">Got a 👾 project in mind? Let's work together. ✌️</h1>
+							<p class="lead fs-24 px-md-12 px-lg-0 mx-lg-n10 mx-xl-0 mb-8">I bring rapid solutions to make the life of my clients easier. Have any questions? Reach out to me and I will get back to you shortly.</p>
+							<a href="#" class="btn btn-lg btn-primary btn-icon btn-icon-end">Contact Me <i class="uil uil-arrow-up-right"></i></a>
+						</div>
+						<!-- /column -->
+					</div>
+					<!-- /.row -->
+				</div>
+				<!-- /.container -->
+			</div>
+			<!-- /.wrapper -->
+		</section>
+		<!-- /section -->
+	</div>
+	<!-- /.content-wrapper -->
+	<footer>
+		<div class="container py-7">
+			@@include('_footer6-widgets.html')
+		</div>
+		<!-- /.container -->
+	</footer>
+	@@include('_page-progress.html')
+	@@include('_scripts.html')
+</body>
+</html>
