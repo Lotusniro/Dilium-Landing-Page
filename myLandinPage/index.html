@@ -1,350 +1,476 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dilium - Enterprise Solutions</title>
     <!--  Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
     <!-- style.css -->
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body>
-    
-      <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container">
-          <a href="index.html" class="navbar-brand">
-            <img src="images/logo-white.png" alt="logo" width="150">
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="#about">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#team">Team</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="applicationAreasDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Application Areas
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="applicationAreasDropdown">
-                  <li><a class="dropdown-item" href="#products">Product Development</a></li>
-                  <li><a class="dropdown-item" href="#training">Training and Onboarding</a></li>
-                  <li><a class="dropdown-item" href="#experience">Customer Experience</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#development-stages">Development Stages</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-              </li>
-              <li class="nav-item d-none d-lg-block">
-                <a href="https://twitter.com/?lang=en" target="_blank">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="bi bi-twitter-x color2 m-2" viewBox="0 0 16 16" fill="currentColor">
-                    <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"/>
-                  </svg>
-                </a>
-              </li>
-              <li class="nav-item d-none d-lg-block">
-                <a href="">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-linkedin color2 m-2" viewBox="0 0 16 16">
-                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      
-   
-  <!--  -->
-    <div class="wrapper">
-        
-        <div class="content">
-            <!--header  -->
-            <header class="parallax" id="header">
-                <div class="container">
-                   <div class="main">
-                        <h1 class="display-1 text-white">Enterprise Solutions</h1>
-                        <p>Spatial Computing & Collaboration</p>
-                    </div>
-                </div>
-            </header>
-            
-           <!-- welcome section -->
-            <section id="about" >
-                <div class="container">
-                    <h1 class="m-3"> Welcome to Dilium </h1>
-                    <p>We develop AI solutions and spatial computing experiences to increase revenue and reduce the time and costs of business processes.
-                   The company is led by prof. Donato De Ieso, President of the Italian Chapter of the VR/AR Association and Academic Tutor at the University of Milan, supported by one of the best teams in Europe, selected by Apple in September 2023 in the developers Lab in London and Cupertino to develop projects with the revolutionary Apple Vision Pro.</p>
-                </div>
-            </section>
-
-            <!--parallax -->
-           
-            <!-- <section class="parallax" id="parallax1"></section> -->
-
-        <!-- team section -->
-     <section id="team">
-                <div class="container">
-                    <h2 style="color:#1f7bb1 ;">Meet Our Team</h2>
-                    <div class="team-members">
-                        <div class="member">
-                            <img src="images/donato.png" alt="">
-                            <h3>Donato De Ieso</h3>
-                            <p>Co-founder & CEO</p>
-                        </div>
-                        <div class="member">
-                            <img src="images/evendro.png" alt="">
-                            <h3>Evandro Beqaj</h3>
-                            <p>Creative Director</p>
-                        </div>
-                        <div class="member">
-                            <img src="images/macrco.png" alt="">
-                            <h3>Marco Vissani</h3>
-                            <p>Full stack dev.</p>
-                        </div>
-                        <div class="member">
-                            <img src="images/Roberto.png" alt="">
-                            <h3>Roberto Sommariva</h3>
-                            <p>Unity XR dev.</p>
-                        </div>
-                        <div class="member">
-                            <img src="images/pietro.png" alt="">
-                            <h3>Pietro Boeri</h3>
-                            <p>Dev. Full stack</p>
-                        </div>
-                        <div class="member">
-                            <img src="images/francesca.png" alt="">
-                            <h3>Francesca Del Rosario</h3>
-                            <p>Co-founder & CTO</p>
-                        </div>
-                        <div class="member">
-                            <img src="images/jalex.png" alt="">
-                            <h3>Jalex Follosco</h3>
-                            <p>Machine Learning & iOS Developer</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-
-            <section class="parallax" id="parallax2"></section>
-            
-
-<!-- lets create bootsrap for product section -->
-<section id="products">
-    <div class="container">
-        <h2>Product Development</h2>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="/images/dr.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title   
-                        ">Spatial Drawing</h5>
-                        <p class="card-text">First mover, we launch this application in Cupertino in February 2024. The environment around you becomes your agenda, and you can note down, draw and depict everything you need, both on your own and in collaboration with your team.</p>
-                        <a href="https://youtu.be/_Z2dQ4hc1Uk" target="_blank" class="btn btn-primary">Watch Video</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="/images/six.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title
-                        ">3DtoMe</h5>
-                        <p class="card-text">You will be able to disassemble your digital twin, no matter how complex or large it is, to facilitate R&D and maintenance activities, without having to handle its twin. With Spatial Drawing technologies you can add comments or annotations and drawing directly on the 3D model.</p>
-                        <a href="https://youtu.be/_Z2dQ4hc1Uk" target="_blank" class="btn btn-primary">Watch Video</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="/images/seven.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title
-                        ">Sales Pitch</h5>
-                        <p class="card-text">Transform how you communicate your products using the Vision Pro, without the need to transport them to the customer or bring the customer to them, with informative cards to support the sales process and Spatial Collaboration now available to showcase your product very easy.</p>
-                        <a href="https://youtu.be/cvMV2zTfVE4" target="_blank" class="btn btn-primary">Watch Video</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-
-
-
-
-
-
-
-            <section class="parallax" id="parallax3"></section>
-
-          
- <!-- lets create card bootsrap -->
- <section id="training">
-    <div class="container">
-      <h2>Training and Onboarding</h2>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card">
-            <img src="/images/spa_3.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">On the Job Maintenance</h5>
-              <p class="card-text">Anyone will be able to solve malfunctions of your product, without needing training or having to rely on support teams: simply aim at the product, the visor will automatically detect the defect and provide simple and precise instructions to the wearer on how to fix it.</p>
-              <a href="https://youtu.be/q81DzN9A3g8" target="_blank" class="btn btn-primary">Watch Video</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <img src="/images/six.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Spatial Plan</h5>
-              <p class="card-text">Anyone will be able to inspect a site or area by physically moving within it. Without the need for specific training or relying on support teams, it will be possible to make annotations or extract real-time 3D modeling acquired through the scanning of the entire area or small portions of it.</p>
-              <a href="https://youtu.be/r_i8N30wqL0" target="_blank" class="btn btn-primary">Watch Video</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <img src="/images/frame_2.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Spatial Support</h5>
-              <p class="card-text">With Spatial Support, you can access remote assistance from experienced experts who can see what you see and provide annotated guidance and human-to-human interaction, anywhere at any time.</p>
-              <a href="https://www.youtube.com/watch?v=UmWO08TUnZ8" target="_blank" class="btn btn-primary">Watch Video</a>
-            </div>
-          </div>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <img src="images/logo-white.png" alt="logo" width="150" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="applicationAreasDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Application Areas
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="applicationAreasDropdown"
+              >
+                <li>
+                  <a class="dropdown-item" href="#products"
+                    >Product Development</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#training"
+                    >Training and Onboarding</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#experience"
+                    >Customer Experience</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#development-stages"
+                >Development Stages</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item d-none d-lg-block">
+              <a href="https://twitter.com/?lang=en" target="_blank">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  class="bi bi-twitter-x color2 m-2"
+                  viewBox="0 0 16 16"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li class="nav-item d-none d-lg-block">
+              <a href="">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  fill="currentColor"
+                  class="bi bi-linkedin color2 m-2"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
-  </section>
-  
+    </nav>
 
-            <section class="parallax" id="parallax4"></section>
-         
-            <!-- experience -->
-
-            <section id="experience">
-                <div class="container">
-                    <h2>Customer Experience</h2>
-                    <div class="product_container2">
-                        <div class="product">
-                            <h3>Spatial Shop</h3>
-                            <p>All your products are seamlessly transferred into our native application on Apple Vision Pro. You can view detailed information such as titles, descriptions, pricing, call-to-action buttons, videos, images and more, directly via APIs from your website. Open a new channel for your e-commerce!</p>
-                            <a href="https://youtu.be/bAYxDGTYNZY" target="_blank">Watch Video</a>
-                        </div>
-                        <div class="product">
-                            <h3>Portal Gate</h3>
-                            <p>Travel in different virtual worlds in a 360° immersive experience through the Vision Pro. Discover virtual destinations like retail store or your headquarter and immerse yourself like never before with PortalGate.</p>
-                            <a href="https://youtu.be/MCg_0-mTBm4" target="_blank">Watch Video</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-           
-            <!-- dev stages-->
-
-            <section id="development-stages">
-                <h2>Development Stages</h2>
-                <div class="dev_container">
-                    <div class="dil-li">
-                        <div class="para"><p>Mockup Design </p></div>
-                        <div class="para"><p>Proof of Stake </p></div>
-                        <div class="para"><p>Dev App </p></div>
-                        <div class="para"><p>Go to Market</p></div>
-                    </div>
-                </div>
-            </section>
-
-
-            <section id="contact">
-                <div class="form-container">
-                    <h2>Get in Touch</h2>
-                    <p>Address: Via Selvanesco, 75 - 20141 Milan (IT)</p>
-                    <p>Email: <a href="mailto:hello@dilium.com">hello@dilium.com</a></p>
-                    <form>
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" required>
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" required>
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" required></textarea>
-                        <button type="submit">Send</button>
-                    </form>
-                </div>
-            </section>
-        </div>
-        <!-- footer -->
-        <footer>
-            <div class="foot-container">
-                <p>© 2024 Dilium</p>
-                <ul>
-                    <li><a href="#privacy">Privacy Policy</a></li>
-                    <li><a href="#terms">Terms of Service</a></li>
-                </ul>
+    <!--  -->
+    <div class="wrapper">
+      <div class="content">
+        <!--header  -->
+        <header class="parallax" id="header">
+          <div class="container">
+            <div class="main">
+              <h1 class="display-1 text-white">Enterprise Solutions</h1>
+              <p>Spatial Computing & Collaboration</p>
             </div>
-        </footer>
+          </div>
+        </header>
+
+        <!-- welcome section -->
+        <section id="about">
+          <div class="container">
+            <h1 class="m-3">Welcome to Dilium</h1>
+            <p>
+              We develop AI solutions and spatial computing experiences to
+              increase revenue and reduce the time and costs of business
+              processes. The company is led by prof. Donato De Ieso, President
+              of the Italian Chapter of the VR/AR Association and Academic Tutor
+              at the University of Milan, supported by one of the best teams in
+              Europe, selected by Apple in September 2023 in the developers Lab
+              in London and Cupertino to develop projects with the revolutionary
+              Apple Vision Pro.
+            </p>
+          </div>
+        </section>
+
+        <!--parallax -->
+
+        <!-- <section class="parallax" id="parallax1"></section> -->
+
+        <!-- team section -->
+        <section id="team">
+          <div class="container">
+            <h2 style="color: #1f7bb1">Meet Our Team</h2>
+            <div class="team-members">
+              <div class="member">
+                <img src="images/donato.png" alt="" />
+                <h3>Donato De Ieso</h3>
+                <p>Co-founder & CEO</p>
+              </div>
+              <div class="member">
+                <img src="images/evendro.png" alt="" />
+                <h3>Evandro Beqaj</h3>
+                <p>Creative Director</p>
+              </div>
+              <div class="member">
+                <img src="images/macrco.png" alt="" />
+                <h3>Marco Vissani</h3>
+                <p>Full stack dev.</p>
+              </div>
+              <div class="member">
+                <img src="images/Roberto.png" alt="" />
+                <h3>Roberto Sommariva</h3>
+                <p>Unity XR dev.</p>
+              </div>
+              <div class="member">
+                <img src="images/pietro.png" alt="" />
+                <h3>Pietro Boeri</h3>
+                <p>Dev. Full stack</p>
+              </div>
+              <div class="member">
+                <img src="images/francesca.png" alt="" />
+                <h3>Francesca Del Rosario</h3>
+                <p>Co-founder & CTO</p>
+              </div>
+              <div class="member">
+                <img src="images/jalex.png" alt="" />
+                <h3>Jalex Follosco</h3>
+                <p>Machine Learning & iOS Developer</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="parallax" id="parallax2"></section>
+
+        <!-- lets create bootsrap for product section -->
+        <section id="products">
+          <div class="container">
+            <h2>Product Development</h2>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="/images/dr.png" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Spatial Drawing</h5>
+                    <p class="card-text">
+                      First mover, we launch this application in Cupertino in
+                      February 2024. The environment around you becomes your
+                      agenda, and you can note down, draw and depict everything
+                      you need, both on your own and in collaboration with your
+                      team.
+                    </p>
+                    <a
+                      href="https://youtu.be/_Z2dQ4hc1Uk"
+                      target="_blank"
+                      class="btn btn-primary"
+                      >Watch Video</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="/images/six.png" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">3DtoMe</h5>
+                    <p class="card-text">
+                      You will be able to disassemble your digital twin, no
+                      matter how complex or large it is, to facilitate R&D and
+                      maintenance activities, without having to handle its twin.
+                      With Spatial Drawing technologies you can add comments or
+                      annotations and drawing directly on the 3D model.
+                    </p>
+                    <a
+                      href="https://youtu.be/_Z2dQ4hc1Uk"
+                      target="_blank"
+                      class="btn btn-primary"
+                      >Watch Video</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="/images/seven.png" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Sales Pitch</h5>
+                    <p class="card-text">
+                      Transform how you communicate your products using the
+                      Vision Pro, without the need to transport them to the
+                      customer or bring the customer to them, with informative
+                      cards to support the sales process and Spatial
+                      Collaboration now available to showcase your product very
+                      easy.
+                    </p>
+                    <a
+                      href="https://youtu.be/cvMV2zTfVE4"
+                      target="_blank"
+                      class="btn btn-primary"
+                      >Watch Video</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="parallax" id="parallax3"></section>
+
+        <!-- lets create card bootsrap -->
+        <section id="training">
+          <div class="container">
+            <h2>Training and Onboarding</h2>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="/images/spa_3.png" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">On the Job Maintenance</h5>
+                    <p class="card-text">
+                      Anyone will be able to solve malfunctions of your product,
+                      without needing training or having to rely on support
+                      teams: simply aim at the product, the visor will
+                      automatically detect the defect and provide simple and
+                      precise instructions to the wearer on how to fix it.
+                    </p>
+                    <a
+                      href="https://youtu.be/q81DzN9A3g8"
+                      target="_blank"
+                      class="btn btn-primary"
+                      >Watch Video</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="/images/six.png" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Spatial Plan</h5>
+                    <p class="card-text">
+                      Anyone will be able to inspect a site or area by
+                      physically moving within it. Without the need for specific
+                      training or relying on support teams, it will be possible
+                      to make annotations or extract real-time 3D modeling
+                      acquired through the scanning of the entire area or small
+                      portions of it.
+                    </p>
+                    <a
+                      href="https://youtu.be/r_i8N30wqL0"
+                      target="_blank"
+                      class="btn btn-primary"
+                      >Watch Video</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img
+                    src="/images/frame_2.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Spatial Support</h5>
+                    <p class="card-text">
+                      With Spatial Support, you can access remote assistance
+                      from experienced experts who can see what you see and
+                      provide annotated guidance and human-to-human interaction,
+                      anywhere at any time.
+                    </p>
+                    <a
+                      href="https://www.youtube.com/watch?v=UmWO08TUnZ8"
+                      target="_blank"
+                      class="btn btn-primary"
+                      >Watch Video</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="parallax" id="parallax4"></section>
+
+        <!-- experience -->
+
+        <section id="experience">
+          <div class="container">
+            <h2>Customer Experience</h2>
+            <div class="product_container2">
+              <div class="product">
+                <h3>Spatial Shop</h3>
+                <p>
+                  All your products are seamlessly transferred into our native
+                  application on Apple Vision Pro. You can view detailed
+                  information such as titles, descriptions, pricing,
+                  call-to-action buttons, videos, images and more, directly via
+                  APIs from your website. Open a new channel for your
+                  e-commerce!
+                </p>
+                <a href="https://youtu.be/bAYxDGTYNZY" target="_blank"
+                  >Watch Video</a
+                >
+              </div>
+              <div class="product">
+                <h3>Portal Gate</h3>
+                <p>
+                  Travel in different virtual worlds in a 360° immersive
+                  experience through the Vision Pro. Discover virtual
+                  destinations like retail store or your headquarter and immerse
+                  yourself like never before with PortalGate.
+                </p>
+                <a href="https://youtu.be/MCg_0-mTBm4" target="_blank"
+                  >Watch Video</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- dev stages-->
+
+        <section id="development-stages">
+          <h2>Development Stages</h2>
+          <div class="dev_container">
+            <div class="dil-li">
+              <div class="para"><p>Mockup Design</p></div>
+              <div class="para"><p>Proof of Stake</p></div>
+              <div class="para"><p>Dev App</p></div>
+              <div class="para"><p>Go to Market</p></div>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact">
+          <div class="form-container">
+            <h2>Get in Touch</h2>
+            <p>Address: Via Selvanesco, 75 - 20141 Milan (IT)</p>
+            <p>Email: <a href="mailto:hello@dilium.com">hello@dilium.com</a></p>
+            <form>
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required />
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required></textarea>
+              <button type="submit">Send</button>
+            </form>
+          </div>
+        </section>
+      </div>
+      <!-- footer -->
+      <footer>
+        <div class="foot-container">
+          <p>© 2024 Dilium</p>
+          <ul>
+            <li><a href="#privacy">Privacy Policy</a></li>
+            <li><a href="#terms">Terms of Service</a></li>
+          </ul>
+        </div>
+      </footer>
     </div>
- 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
     <script>
-//         function userScroll() {
-//   const navbar = document.querySelector('.navbar');
+      //         function userScroll() {
+      //   const navbar = document.querySelector('.navbar');
 
-//   window.addEventListener('scroll', () => {
-//     if (window.scrollY > 50) {
-//       navbar.classList.add('bg-blue','text-black');
-//       navbar.classList.remove('bg-transparent');
-//     } else {
-//       navbar.classList.remove('bg-blue','text-black');
-//     }
-//   });
-// }
+      //   window.addEventListener('scroll', () => {
+      //     if (window.scrollY > 50) {
+      //       navbar.classList.add('bg-blue','text-black');
+      //       navbar.classList.remove('bg-transparent');
+      //     } else {
+      //       navbar.classList.remove('bg-blue','text-black');
+      //     }
+      //   });
+      // }
 
-// document.addEventListener('DOMContentLoaded', userScroll);
-function userScroll() {
-        const navbar = document.querySelector('.navbar');
+      // document.addEventListener('DOMContentLoaded', userScroll);
+      function userScroll() {
+        const navbar = document.querySelector(".navbar");
 
-        window.addEventListener('scroll', () => {
-            if (window.scrollY > 50) {
-                navbar.classList.add('bg-blue', 'text-black');
-                navbar.classList.remove('bg-transparent');
-            } else {
-                navbar.classList.remove('bg-blue', 'text-black');
-            }
+        window.addEventListener("scroll", () => {
+          if (window.scrollY > 50) {
+            navbar.classList.add("bg-blue", "text-black");
+            navbar.classList.remove("bg-transparent");
+          } else {
+            navbar.classList.remove("bg-blue", "text-black");
+          }
         });
-    }
+      }
 
-    document.addEventListener('DOMContentLoaded', userScroll);
+      document.addEventListener("DOMContentLoaded", userScroll);
     </script>
-</body>
+  </body>
 </html>
-
-
